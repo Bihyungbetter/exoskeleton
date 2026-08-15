@@ -1,8 +1,8 @@
-# Exoskeleton (Pitt Exo)
+# Exoskeleton 
 
 ## Overview
 
-Pitt Exo is a powered lower-limb exoskeleton with six actuated joints — hip flexion, hip abduction, and knee flexion per leg. Each joint is driven by a CubeMars AK-series actuator (AK70-10 / AK80-64) commanded over CAN by a Teensy 4.1 running through a custom dual-CAN power distribution board, which supplies six independent motor power outputs. The frame — waist, hip abductors, hip-to-thigh, thigh-to-knee, and knee-to-shank sections — is designed in SolidWorks; the electronics are designed in KiCad.
+Exoskeleton is a powered lower-limb exoskeleton with six actuated joints — hip flexion, hip abduction, and knee flexion per leg. Each joint is driven by a CubeMars AK-series actuator (AK70-10 / AK80-64) commanded over CAN by a Teensy 4.1 running through a custom dual-CAN power distribution board, which supplies six independent motor power outputs. The frame — waist, hip abductors, hip-to-thigh, thigh-to-knee, and knee-to-shank sections — is designed in SolidWorks; the electronics are designed in KiCad.
 
 ## Features
 
