@@ -1,0 +1,11 @@
+# Python 3.11. CPU torch is enough (everything runs with --device cpu), e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# MyoAssist isn't a pip dependency here, only its model files are used (see README).
+
+mujoco==3.3.3
+numpy==2.2.6
+gymnasium==0.29.1
+stable_baselines3==2.9.0
+cloudpickle==3.1.2
+torch==2.13.0
+scipy==1.17.1

@@ -1,0 +1,13 @@
+.venv/
+.venv-cad/
+third_party/
+
+# models/ is mostly checkpoints and build output; the files we keep are force-added
+models/
+
+logs/
+results/
+MUJOCO_LOG.TXT
+__pycache__/
+*.pyc
+.ruff_cache/
