@@ -1,0 +1,89 @@
+{
+  "model": "models/human_exo_direct.xml",
+  "note": "identity by construction -- actuators act directly on the human joints, so transmission is exact.  NOT measured with calibrate_exo_transmission.py, which reads constraint torque and therefore reports ~0 for a direct actuator.",
+  "human_joints": [
+    "hip_flexion_r",
+    "hip_adduction_r",
+    "knee_angle_r",
+    "ankle_angle_r",
+    "hip_flexion_l",
+    "hip_adduction_l",
+    "knee_angle_l",
+    "ankle_angle_l"
+  ],
+  "exo_actuators": [
+    "exo_act_hip_abd_l",
+    "exo_act_hip_abd_r",
+    "exo_act_hip_flex_l",
+    "exo_act_hip_flex_r",
+    "exo_act_knee_l",
+    "exo_act_knee_r"
+  ],
+  "human_constraint_torque_per_exo_torque": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "finite": true
+}
